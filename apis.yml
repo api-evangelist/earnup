@@ -1,8 +1,28 @@
 aid: earnup
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/earnup.png
 name: EarnUp
-description: 'EarnUp is a company surfaced as a portfolio company of bain-capital-ventures and added to
-  the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  EarnUp is a San Francisco-based financial-wellness fintech that automates
+  consumer debt paydown and savings. Using patented technology and predictive
+  analytics, its platform lets people schedule and automatically make payments
+  toward mortgages, auto loans, student loans, and other personal debt, and
+  save for life events. EarnUp sells engagement and AI-advisor tooling to
+  lenders, mortgage servicers, credit unions, employers, unions, and financial
+  professionals, and reports that more than three million people have used the
+  platform. Surfaced as a portfolio company of Bain Capital Ventures, this is a
+  company profile in the API Evangelist network; EarnUp publishes no public
+  developer API, so enrichment is limited to identity and security posture.
 url: https://raw.githubusercontent.com/api-evangelist/earnup/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Fintech
+- Financial Services
+- Debt Repayment
+- Personal Finance
+- Payments
+- Financial Wellness
+- Lending
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +51,26 @@ maintainers:
 common:
 - type: Website
   url: https://www.earnup.com/
+- type: SignUp
+  url: http://www.myearnup.com/
+- type: Blog
+  url: https://earnup.com/insights/
+- type: PrivacyPolicy
+  url: https://earnup.com/privacy-policy/
+- type: TermsOfService
+  url: https://earnup.com/terms-of-use/
+- type: TrustCenter
+  url: https://earnup.com/trust-policy/
+- type: Compliance
+  url: https://earnup.com/trust-policy/
+- type: Security
+  url: https://earnup.com/trust-policy/
+- type: VulnerabilityDisclosure
+  url: security/earnup-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/earnup-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
