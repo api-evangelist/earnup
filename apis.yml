@@ -47,7 +47,7 @@ modified: '2026-07-18'
 tags:
 - Company
 - Fintech
-- Financial-Services
+- Financial Services
 - Debt Repayment
 - Personal Finance
 - Payments
@@ -62,6 +62,7 @@ tags_raw:
 - Payments
 - Financial Wellness
 - Lending
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
